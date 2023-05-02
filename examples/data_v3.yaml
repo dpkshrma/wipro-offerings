@@ -1,0 +1,1126 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ASIC
+  description: 'ASIC is part of CIS, iCORE. Et sunt qui quas omnis esse neque. Et labore reiciendis ut tempore enim accusamus sed voluptatem et. Tempore tempora sit voluptas quo maiores similique earum blanditiis aliquid. Consequatur voluptas magnam. Architecto qui porro est assumenda ea mollitia illo autem exercitationem.'
+spec:
+  owner: jai_prakash_reddy
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Automation
+  description: 'Automation is a practice which is a part of CIS, iCORE headed by Priya Bakthisaran and consisting of 100+ Active Global Enterprise Customers with ~10+ years of experience. Currently there are 200+ Automation flex and dedicated team including Practice and solution experts. Automation majorly deals with the Hybrid cloud/DC & NW automation, Workplace automation, Automation Consulting & Automation COE'
+spec:
+  owner: priya_bakthisaran
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Business_Management
+  description: 'Business Service Mgmt, AI Ops & Tools is a practice which is a part of CIS, iCORE and consisting of 350+ Active Global Enterprise Customers with ~30+ years of experience. Currently there are 1,400+ Dedicated professionals across the globe. Business Service Mgmt, AI Ops & Tools majorly deals with the Tools Solutioning, Tools consulting, Multi-tower\Cloud Consulting'
+spec:
+  owner: thyagaraju_honnappa
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: DC_Hybrid_Cloud
+  description: 'DC & Hybrid Cloud is a practice which is a part of CIS, iCORE headed by Lakshmanan A V and consisting of 320+ Active Global Enterprise Customers with ~15+ years of experience. Currently there are 8,490+ Dedicated professionals across the globe. DC & Hybrid Cloud majorly deals with the Cloud OnPrem, Edge Cloud - BLUE, Digital Database platform Service (DDPS) & SAP & HANA as a service'
+spec:
+  owner: lakshmanan_a_v
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Digital_Network
+  description: 'Digital Network is a practice which is a part of CIS, iCORE headed by Apurba Datta and consisting of 500+ Active Global Enterprise Customers with ~25+ years of experience. Currently there are 5,500+ Dedicated professionals across the globe. Digital Network majorly deals with the SD-WAN'
+spec:
+  owner: apurba_datta
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Digital_Workplace_Services
+  description: 'Digital Workplace Services & EUC is a practice which is a part of CIS, iCORE headed by Sidharth Mukherjee and consisting of 1,160+ Active Global Enterprise Customers with ~25+ years of experience. Digital Workplace Services & EUC majorly deals with the DiverseAny-where, ConfiguredAny-time, '
+spec:
+  owner: sidharth_mukherjee
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: IOT
+  description: 'IOT is a practice which is a part of CIS, iCORE headed by Ashish Khare and consisting of 100+ Engagements with ~15+ years of experience. Currently there are 6500+ Digital & IoT Experts, 3000+ Domain Experts. IOT majorly deals with Edge, Connectivity, Platform enablement Hosting, Platform/Applications & Enterprise Applications'
+spec:
+  owner: ashish_khare
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ServiceNow
+  description: 'ServiceNow is a practice which is a part of CIS, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: BFS_CommecialBanking
+  description: 'BFS_CommecialBanking is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: BFS_Securities
+  description: 'BFS_Securities is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: BFS_Consumer_Banking
+  description: 'BFS_Consumer_Banking is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: BFS_Financial_Crime
+  description: 'BFS_Financial_Crime is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: HR_Administrative_services
+  description: 'HR_Administrative_services is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: HR_Helpdesk_services
+  description: 'HR_Helpdesk_services is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: HR_Advisory_services
+  description: 'HR_Advisory_services is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Global_payroll
+  description: 'Global_payroll is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Retirement_administrative_services
+  description: 'Retirement_administrative_services is a practice which is a part of DOP, iCORE headed by xyz and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+spec:
+  owner: subhash_thomas
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ASIC_Offering_1
+  description: 'ASIC is part of CIS, iCORE. Et sunt qui quas omnis esse neque. Et labore reiciendis ut tempore enim accusamus sed voluptatem et. Tempore tempora sit voluptas quo maiores similique earum blanditiis aliquid. Consequatur voluptas magnam. Architecto qui porro est assumenda ea mollitia illo autem exercitationem.'
+  tags: ['bfs','enu']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: ASIC
+  lifecycle: production
+  owner: jai_prakash_reddy
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ASIC_Offering_2
+  description: 'ASIC is part of CIS, iCORE. Et sunt qui quas omnis esse neque. Et labore reiciendis ut tempore enim accusamus sed voluptatem et. Tempore tempora sit voluptas quo maiores similique earum blanditiis aliquid. Consequatur voluptas magnam. Architecto qui porro est assumenda ea mollitia illo autem exercitationem.'
+  tags: ['bfs','enu']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: ASIC
+  lifecycle: production
+  owner: jai_prakash_reddy
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ASIC_Offering_3
+  description: 'ASIC is part of CIS, iCORE. Et sunt qui quas omnis esse neque. Et labore reiciendis ut tempore enim accusamus sed voluptatem et. Tempore tempora sit voluptas quo maiores similique earum blanditiis aliquid. Consequatur voluptas magnam. Architecto qui porro est assumenda ea mollitia illo autem exercitationem.'
+  tags: ['bfs','enu']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: ASIC
+  lifecycle: production
+  owner: jai_prakash_reddy
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ASIC_Offering_4
+  description: 'ASIC is part of CIS, iCORE. Et sunt qui quas omnis esse neque. Et labore reiciendis ut tempore enim accusamus sed voluptatem et. Tempore tempora sit voluptas quo maiores similique earum blanditiis aliquid. Consequatur voluptas magnam. Architecto qui porro est assumenda ea mollitia illo autem exercitationem.'
+  tags: ['bfs','enu']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: ASIC
+  lifecycle: production
+  owner: jai_prakash_reddy
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ASIC_Offering_5
+  description: 'ASIC is part of CIS, iCORE. Et sunt qui quas omnis esse neque. Et labore reiciendis ut tempore enim accusamus sed voluptatem et. Tempore tempora sit voluptas quo maiores similique earum blanditiis aliquid. Consequatur voluptas magnam. Architecto qui porro est assumenda ea mollitia illo autem exercitationem.'
+  tags: ['bfs','enu']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: ASIC
+  lifecycle: production
+  owner: jai_prakash_reddy
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Automation_Offering
+  description: 'Automation is a practice which is a part of CIS, iCORE headed by Priya Bakthisaran and consisting of 100+ Active Global Enterprise Customers with ~10+ years of experience. Currently there are 200+ Automation flex and dedicated team including Practice and solution experts. Automation majorly deals with the Hybrid cloud/DC & NW automation, Workplace automation, Automation Consulting & Automation COE'
+  tags: ['enu','mfg','health']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: Automation
+  lifecycle: production
+  owner: priya_bakthisaran
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Business_Management_Offering
+  description: 'Business Service Mgmt, AI Ops & Tools is a practice which is a part of CIS, iCORE and consisting of 350+ Active Global Enterprise Customers with ~30+ years of experience. Currently there are 1,400+ Dedicated professionals across the globe. Business Service Mgmt, AI Ops & Tools majorly deals with the Tools Solutioning, Tools consulting, Multi-tower\Cloud Consulting'
+  tags: ['enu','health','consumer']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: Business_Management
+  lifecycle: production
+  owner: thyagaraju_honnappa
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DC_Hybrid_Cloud_Offering
+  description: 'DC & Hybrid Cloud is a practice which is a part of CIS, iCORE headed by Lakshmanan A V and consisting of 320+ Active Global Enterprise Customers with ~15+ years of experience. Currently there are 8,490+ Dedicated professionals across the globe. DC & Hybrid Cloud majorly deals with the Cloud OnPrem, Edge Cloud - BLUE, Digital Database platform Service (DDPS) & SAP & HANA as a service'
+  tags: ['bfs','enu','mfg','health','consumer','retail']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: DC_Hybrid_Cloud
+  lifecycle: production
+  owner: lakshmanan_a_v
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Digital_Network_Offering
+  description: 'Digital Network is a practice which is a part of CIS, iCORE headed by Apurba Datta and consisting of 500+ Active Global Enterprise Customers with ~25+ years of experience. Currently there are 5,500+ Dedicated professionals across the globe. Digital Network majorly deals with the SD-WAN'
+  tags: ['capital-markets','insurance']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: Digital_Network
+  lifecycle: production
+  owner: apurba_datta
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Digital_Workplace_Services_Offering
+  description: 'Digital Workplace Services & EUC is a practice which is a part of CIS, iCORE headed by Sidharth Mukherjee and consisting of 1,160+ Active Global Enterprise Customers with ~25+ years of experience. Digital Workplace Services & EUC majorly deals with the DiverseAny-where, ConfiguredAny-time, '
+  tags: ['retail','comms','hitech','tech']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: Digital_Workplace_Services
+  lifecycle: production
+  owner: sidharth_mukherjee
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: IOT_Offering
+  description: 'IOT is a practice which is a part of CIS, iCORE headed by Ashish Khare and consisting of 100+ Engagements with ~15+ years of experience. Currently there are 6500+ Digital & IoT Experts, 3000+ Domain Experts. IOT majorly deals with Edge, Connectivity, Platform enablement Hosting, Platform/Applications & Enterprise Applications'
+  tags: ['bfs','comms','hitech','insurance']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: IOT
+  lifecycle: production
+  owner: ashish_khare
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ServiceNow_Offering
+  description: 'ServiceNow is a practice which is a part of CIS, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['mfg','health','consumer','insurance']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - CIS"
+  system: ServiceNow
+  lifecycle: production
+  owner: subhash_thomas
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BFS_CommecialBanking_Offering
+  description: 'BFS_CommecialBanking is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['comms','hitech','tech']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: BFS_CommecialBanking
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BFS_Securities_Offering
+  description: 'BFS_Securities is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['health']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: BFS_Securities
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BFS_Consumer_Banking_Offering
+  description: 'BFS_Consumer_Banking is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['consumer','retail']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: BFS_Consumer_Banking
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: BFS_Financial_Crime_Offering
+  description: 'BFS_Financial_Crime is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['comms','hitech','tech','capital-markets','insurance']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: BFS_Financial_Crime
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HR_Administrative_services_Offering
+  description: 'HR_Administrative_services is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['bfs','enu','mfg']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: HR_Administrative_services
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HR_Helpdesk_services_Offering
+  description: 'HR_Helpdesk_services is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['consumer']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: HR_Helpdesk_services
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HR_Advisory_services_Offering
+  description: 'HR_Advisory_services is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['bfs','enu']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: HR_Advisory_services
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Global_payroll_Offering
+  description: 'Global_payroll is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['bfs','comms','hitech','tech','capital-markets','insurance']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: Global_payroll
+  lifecycle: production
+  owner: subhash_thomas
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Retirement_administrative_services_Offering
+  description: 'Retirement_administrative_services is a practice which is a part of DOP, iCORE headed by Ashish Khare and consisting of 90+ Engagements with ~10+ years of experience. Currently there are 850+ dedicated professionals across the globe. ServiceNow majorly deals with IT, Infra, Customer Service, Sales & others'
+  tags: ['mfg','consumer','retail','comms']
+  annotations:
+    wipro.com/offeringDate: '20/03/2022'
+    wipro.com/lastUpdateOfOfferingDate: '04/04/2023'
+    wipro.com/bizProblem: "Operations: Inefficient operations with manual errors leading to P1s\nIncreased cost of delivery\nPoor customer experience\n- Build: Delayed build/ provisioning\nDecreased productivity\nLack of scalability"
+    wipro.com/bizDifferentiator: 'We have an integrated automation platform built on latest technologies like Python and Ansible covering both operations and build, that can be hosted on-prem, on Cloud as well as Kubernets. We havetechnology agnostic solution and delivery team that can work with our clients.'
+    wipro.com/taxonomy:
+      level3: john_andrews
+      level4: jessica_mason
+      level5: david_bronx
+      level6: vinod_kohli
+  links:
+    - url: https://example.com/user
+      title: Customer Presentation
+      icon: user
+    - url: https://example.com/group
+      title: Qualification Questions
+      icon: group
+    - url: https://example.com/cloud
+      title: Proposal Template
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Sales Training
+      icon: dashboard
+    - url: https://example.com/help
+      title: Case Studies
+      icon: help
+    - url: https://example.com/web
+      title: Battle Card (Elevator Pitch)
+      icon: web
+    - url: https://example.com/alert
+      title: Readiness Checklist
+      icon: alert
+    - url: https://example.com/alert
+      title: Solution Demo
+      icon: alert
+spec:
+  type: "Wipro - iCore - DOP"
+  system: Retirement_administrative_services
+  lifecycle: production
+  owner: subhash_thomas
+---

@@ -33,8 +33,39 @@ import { AppRouter, FlatRoutes } from '@backstage/core-app-api';
 import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
+import { createTheme, lightTheme } from '@backstage/theme';
+import { CssBaseline, ThemeProvider } from '@material-ui/core';
+import LogoFull from './components/Root/LogoFull';
+import { CustomCatalogIndexPage } from './components/catalog/IndexPage';
+
+const myTheme = createTheme({
+  palette: {
+    ...lightTheme.palette,
+    navigation: {
+      background: 'whitesmoke',
+      indicator: '#2b0060',
+      color: '#000',
+      selectedColor: '#111',
+      navItem: {
+        hoverBackground: '#fff'
+      }
+    },
+  },
+  defaultPageTheme: 'home',
+});
 
 const app = createApp({
+  themes: [{
+    id: 'my-theme',
+    title: 'My Custom Theme',
+    variant: 'light',
+    icon: <LogoFull />,
+    Provider: ({ children }) => (
+      <ThemeProvider theme={myTheme}>
+        <CssBaseline>{children}</CssBaseline>
+      </ThemeProvider>
+    ),
+  }],
   apis,
   bindRoutes({ bind }) {
     bind(catalogPlugin.externalRoutes, {
@@ -56,7 +87,9 @@ const app = createApp({
 const routes = (
   <FlatRoutes>
     <Route path="/" element={<Navigate to="catalog" />} />
-    <Route path="/catalog" element={<CatalogIndexPage />} />
+    <Route path="/catalog" element={<CatalogIndexPage />}>
+      <CustomCatalogIndexPage />
+    </Route>
     <Route
       path="/catalog/:namespace/:kind/:name"
       element={<CatalogEntityPage />}

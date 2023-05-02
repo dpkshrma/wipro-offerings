@@ -1,68 +1,63 @@
-import React from 'react';
-import { Button, Grid } from '@material-ui/core';
 import {
-  EntityApiDefinitionCard,
-  EntityConsumedApisCard,
-  EntityConsumingComponentsCard,
-  EntityHasApisCard,
-  EntityProvidedApisCard,
-  EntityProvidingComponentsCard,
+  ComponentEntity,
+  Entity,
+  RELATION_HAS_PART
+} from '@backstage/catalog-model';
+import { EmptyState, TableColumn } from '@backstage/core-components';
+import {
+  EntityApiDefinitionCard, EntityConsumingComponentsCard, EntityProvidingComponentsCard
 } from '@backstage/plugin-api-docs';
 import {
   EntityAboutCard,
   EntityDependsOnComponentsCard,
-  EntityDependsOnResourcesCard,
-  EntityHasComponentsCard,
-  EntityHasResourcesCard,
-  EntityHasSubcomponentsCard,
-  EntityHasSystemsCard,
+  EntityDependsOnResourcesCard, EntityHasSystemsCard,
   EntityLayout,
-  EntityLinksCard,
-  EntitySwitch,
-  EntityOrphanWarning,
-  EntityProcessingErrorsPanel,
-  isComponentType,
-  isKind,
-  hasCatalogProcessingErrors,
-  isOrphan,
+  EntityLinksCard, EntityOrphanWarning,
+  EntityProcessingErrorsPanel, EntitySwitch,
+  RelatedEntitiesCard,
+  hasCatalogProcessingErrors, isComponentType,
+  isKind, isOrphan
 } from '@backstage/plugin-catalog';
 import {
-  isGithubActionsAvailable,
-  EntityGithubActionsContent,
-} from '@backstage/plugin-github-actions';
-import {
-  EntityUserProfileCard,
-  EntityGroupProfileCard,
-  EntityMembersListCard,
-  EntityOwnershipCard,
-} from '@backstage/plugin-org';
-import { EntityTechdocsContent } from '@backstage/plugin-techdocs';
-import { EmptyState } from '@backstage/core-components';
-import {
-  Direction,
-  EntityCatalogGraphCard,
+  EntityCatalogGraphCard
 } from '@backstage/plugin-catalog-graph';
 import {
-  RELATION_API_CONSUMED_BY,
-  RELATION_API_PROVIDED_BY,
-  RELATION_CONSUMES_API,
-  RELATION_DEPENDENCY_OF,
-  RELATION_DEPENDS_ON,
-  RELATION_HAS_PART,
-  RELATION_PART_OF,
-  RELATION_PROVIDES_API,
-} from '@backstage/catalog-model';
+  EntityGithubActionsContent, isGithubActionsAvailable
+} from '@backstage/plugin-github-actions';
+import {
+  EntityGroupProfileCard,
+  EntityMembersListCard,
+  EntityOwnershipCard, EntityUserProfileCard
+} from '@backstage/plugin-org';
+import { Button, Card, CardContent, CardHeader, Grid, Table, TableBody, TableCell, TableHead, TableRow, Typography } from '@material-ui/core';
+import React from 'react';
 
-import { TechDocsAddons } from '@backstage/plugin-techdocs-react';
-import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
+import { EntityListProvider, EntityTable, EntityTagPicker } from '@backstage/plugin-catalog-react';
+import { AboutCard } from './AboutCard';
+import { testFinData } from './test-fin-data';
+import HeatMap from './HeatMap';
 
-const techdocsContent = (
-  <EntityTechdocsContent>
-    <TechDocsAddons>
-      <ReportIssue />
-    </TechDocsAddons>
-  </EntityTechdocsContent>
-);
+// const techdocsContent = (
+//   <EntityTechdocsContent>
+//     <TechDocsAddons>
+//       <ReportIssue />
+//     </TechDocsAddons>
+//   </EntityTechdocsContent>
+// );
+
+
+export const componentEntityColumns: TableColumn<ComponentEntity>[] = [
+  EntityTable.columns.createEntityRefColumn({ defaultKind: 'component' }),
+  EntityTable.columns.createOwnerColumn(),
+  EntityTable.columns.createSpecTypeColumn(),
+  EntityTable.columns.createSpecLifecycleColumn(),
+  EntityTable.columns.createMetadataDescriptionColumn(),
+];
+export const componentEntityHelpLink: string =
+  'https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component';
+export const asComponentEntities = (entities: Entity[]): ComponentEntity[] =>
+  entities as ComponentEntity[];
+
 
 const cicdContent = (
   // This is an example of how you can implement your company's logic in entity page.
@@ -114,18 +109,11 @@ const entityWarningContent = (
 const overviewContent = (
   <Grid container spacing={3} alignItems="stretch">
     {entityWarningContent}
-    <Grid item md={6}>
-      <EntityAboutCard variant="gridItem" />
+    <Grid item md={8}>
+      <AboutCard variant="gridItem" />
     </Grid>
-    <Grid item md={6} xs={12}>
-      <EntityCatalogGraphCard variant="gridItem" height={400} />
-    </Grid>
-
     <Grid item md={4} xs={12}>
       <EntityLinksCard />
-    </Grid>
-    <Grid item md={8} xs={12}>
-      <EntityHasSubcomponentsCard variant="gridItem" />
     </Grid>
   </Grid>
 );
@@ -136,7 +124,7 @@ const serviceEntityPage = (
       {overviewContent}
     </EntityLayout.Route>
 
-    <EntityLayout.Route path="/ci-cd" title="CI/CD">
+    {/* <EntityLayout.Route path="/ci-cd" title="CI/CD">
       {cicdContent}
     </EntityLayout.Route>
 
@@ -164,7 +152,7 @@ const serviceEntityPage = (
 
     <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
-    </EntityLayout.Route>
+    </EntityLayout.Route> */}
   </EntityLayout>
 );
 
@@ -189,10 +177,99 @@ const websiteEntityPage = (
       </Grid>
     </EntityLayout.Route>
 
-    <EntityLayout.Route path="/docs" title="Docs">
+    {/* <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
-    </EntityLayout.Route>
+    </EntityLayout.Route> */}
   </EntityLayout>
+);
+
+/**
+ * 
+ * Number of sold deals
+ * deals in pipeline
+ * Average deal size
+ * Average Margin for deals
+ * Time to close deals
+ */
+
+const financialsContent = (
+  <Grid container>
+    <Grid item xs={12}>
+      <Table>
+        <TableHead>
+          <TableRow>
+            <TableCell>
+              S.No.
+            </TableCell>
+            <TableCell>
+              Offering
+            </TableCell>
+            <TableCell>
+              No. of deals sold
+            </TableCell>
+            <TableCell>
+              Average Deal Size
+            </TableCell>
+            <TableCell>
+              Deals in Pipeline
+            </TableCell>
+            <TableCell>
+              Time to close deals
+            </TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {
+            testFinData.map((row, idx) => {
+              return (
+                <TableRow>
+                  <TableCell>
+                    {idx + 1}
+                  </TableCell>
+                  <TableCell>
+                    {row.offering}
+                  </TableCell>
+                  <TableCell>
+                    {row.dealSoldCount}
+                  </TableCell>
+                  <TableCell>
+                    {row.averageDealSize}
+                  </TableCell>
+                  <TableCell>
+                    {row.dealsInPipeline}
+                  </TableCell>
+                  <TableCell>
+                    {row.timeToCloseDeals}
+                  </TableCell>
+                </TableRow>
+              )
+            })
+          }
+        </TableBody>
+      </Table>
+    </Grid>
+  </Grid>
+);
+
+const heatMapContent = (
+  <Grid container>
+    <Grid item xs={12}>
+      <Card>
+        <CardHeader
+          title={(
+            <Typography variant="h5">
+              Industry-based Offerings Heatmap
+            </Typography>
+          )}
+        />
+        <CardContent style={{
+          overflow: 'scroll',
+        }}>
+          <HeatMap />
+        </CardContent>
+      </Card>
+    </Grid>
+  </Grid>
 );
 
 /**
@@ -207,10 +284,9 @@ const defaultEntityPage = (
     <EntityLayout.Route path="/" title="Overview">
       {overviewContent}
     </EntityLayout.Route>
-
-    <EntityLayout.Route path="/docs" title="Docs">
+    {/* <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
-    </EntityLayout.Route>
+    </EntityLayout.Route> */}
   </EntityLayout>
 );
 
@@ -303,27 +379,50 @@ const systemPage = (
     <EntityLayout.Route path="/" title="Overview">
       <Grid container spacing={3} alignItems="stretch">
         {entityWarningContent}
-        <Grid item md={6}>
-          <EntityAboutCard variant="gridItem" />
+        <Grid item md={5}>
+          <AboutCard variant="gridItem" />
         </Grid>
-        <Grid item md={6} xs={12}>
-          <EntityCatalogGraphCard variant="gridItem" height={400} />
-        </Grid>
-        <Grid item md={4} xs={12}>
+        {/* <Grid item md={6} xs={12}>
           <EntityLinksCard />
+        </Grid> */}
+        {/* <Grid item md={4} xs={12}>
+          <EntityCatalogGraphCard variant="gridItem" height={400} />
+        </Grid> */}
+        <Grid item md={7}>
+          {/* <EntityHasComponentsCard variant="gridItem" /> */}
+          <RelatedEntitiesCard
+            variant="gridItem"
+            title="Offerings"
+            entityKind="Component"
+            relationType={RELATION_HAS_PART}
+            columns={componentEntityColumns}
+            emptyMessage="No component is part of this system"
+            emptyHelpLink={componentEntityHelpLink}
+            asRenderableEntities={asComponentEntities}
+          />
         </Grid>
-        <Grid item md={8}>
-          <EntityHasComponentsCard variant="gridItem" />
-        </Grid>
-        <Grid item md={6}>
+        {/* <Grid item md={6}>
           <EntityHasApisCard variant="gridItem" />
         </Grid>
         <Grid item md={6}>
           <EntityHasResourcesCard variant="gridItem" />
-        </Grid>
+        </Grid> */}
       </Grid>
     </EntityLayout.Route>
-    <EntityLayout.Route path="/diagram" title="Diagram">
+    <EntityLayout.Route path="/financials" title="Financials">
+      <Card>
+        <CardHeader
+          title="Offering Deals"
+        />
+        <CardContent>
+          {financialsContent}
+        </CardContent>
+      </Card>
+    </EntityLayout.Route>
+    <EntityLayout.Route path="/heatmap" title="Industry Maps">
+      {heatMapContent}
+    </EntityLayout.Route>
+    {/* <EntityLayout.Route path="/diagram" title="Diagram">
       <EntityCatalogGraphCard
         variant="gridItem"
         direction={Direction.TOP_BOTTOM}
@@ -341,7 +440,7 @@ const systemPage = (
         ]}
         unidirectional={false}
       />
-    </EntityLayout.Route>
+    </EntityLayout.Route> */}
   </EntityLayout>
 );
 
@@ -372,7 +471,6 @@ export const entityPage = (
     <EntitySwitch.Case if={isKind('user')} children={userPage} />
     <EntitySwitch.Case if={isKind('system')} children={systemPage} />
     <EntitySwitch.Case if={isKind('domain')} children={domainPage} />
-
     <EntitySwitch.Case>{defaultEntityPage}</EntitySwitch.Case>
   </EntitySwitch>
 );
